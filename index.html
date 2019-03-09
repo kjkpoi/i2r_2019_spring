@@ -1,0 +1,668 @@
+
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- Bootstrap -->
+  <!-- <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Bootstrap Material Design -->
+  <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-material-design.css">
+  <link rel="stylesheet" type="text/css" href="dist/css/ripples.min.css">
+  <style>
+    body {
+    	padding-top: 70px;
+    	font-weight: normal;
+    }
+    th {
+    	font-weight: bold;
+    }
+	th, td {
+	    font-size: 14px;
+	    padding: 10px;
+	    border: solid 1px lightgrey;
+	}
+	.topic {
+
+	}
+	.reading {
+		max-width: 450px;
+	}
+	.no-class {
+		background-color: lightgrey;
+	}
+  </style>
+  <title>CS492A: Introduction to Research | KAIST Spring 2019</title>
+</head>
+<body>
+	
+
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CS492A</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="assignments.html">Assignments</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="links.html">Links</a></li>
+        <!-- <li><a href="review_paper.html">Selected Papers</a></li> -->
+        <!-- <li><a href="reading-response.html">Reading Response</a></li> -->
+        <!-- <li><a href="topic-presentation.html">Topic Presentation</a></li> -->
+        <!-- <li><a href="assignments.html">Assignments</a></li> -->
+<!--         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Assignments <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Assignment 1</a></li>
+            <li><a href="#">Assignment 2</a></li>
+            <li><a href="#">Assignment 3</a></li>
+            <li><a href="#">Assignment 4</a></li>
+          </ul>
+        </li> -->
+        <!-- <li><a href="design-project.html">Design Project</a></li> -->
+        <!-- <li><a href="projects/index.html">Project Gallery</a></li> -->
+        <!-- <li><a href="class-logistics.html">Class Logistics</a></li> -->
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid main">
+	<div class="row">
+		<div class="col-md-12">
+          <div class="well">
+            <div>KAIST Spring 2019</div>
+            <h1>CS492A: Introduction to Research</h1>
+
+            <p>Many (undergraduate) students at KAIST consider having a research career. Although there are
+            research opportunities such as URP or lab internships, it is still difficult to assess whether research is
+            right for oneself with such short research experience. Moreover, mentoring and guidelines for research
+            beginners are not always available.
+            This course is designed for students who want to understand which activities and tasks are involved in
+            research and what characteristics and attitude are required to be great researchers. This course will
+            provide students with a taste of various aspects of research, including how to find the right research
+            area, how to approach your potential research advisor, how to identify papers to read, how to create
+            good research ideas, how to write and present papers, how to interact with peers, and how to write a
+            good CV. </p>
+
+
+
+            <p>Through a series of lectures, assignments, workshops, and student panels, we will cover the following:</p>
+
+            <ul>
+            <li>Why do research?</li>
+            <li>How to select a research area and an advisor</li>
+            <li>How to generate (great) ideas</li>
+            <li>How to read papers</li>
+            <li>How to write papers</li>
+            <li>How to present your research</li>
+            <li>How to review papers</li>
+            <li>How to write research proposals</li>
+            <li>How to promote yourself and your research</li>
+            <li>Research ethics (human subjects, institutional review board, data management, conflicts of interests, etc.)</li>
+            </ul>
+
+            <p>This course is open to highly motivated undergraduate students and also graduate students who are in very early stage of their research career.</p>
+
+            <p><strong>Grading</strong>: There will be no midterm or final exams. Your grade will be based on how you excel at a series of
+            assignments, workshops, presentation, project, in addition to your class participation</p>
+            
+            <p><strong>Policy on Class Registration</strong>: We are humbled by the interest shown by a great number of students on this course. As one of the goals of this course is to have the students experience various research activities and receive detailed feedback from the instructors, we have placed a limit on the number of students. We appreciate your understanding.  <br/><br/>
+            While the registration is currently full, we encourage you to monitor the status as registered students could drop. Even if you're not registered, if you have a strong interest in taking the course, please attend the classes in the first week, as we expect a few more positions to open up.
+            </p>
+
+          </div>
+        <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>		
+	</div>
+
+	<div class="row">
+		<div class="col-md-6">
+        <div class="bs-component">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Course Staff</h3>
+            </div>
+            <div class="panel-body">
+              <strong>Instructors</strong>: <br/>
+                Prof. Juho Kim (juhokim@kaist.ac.kr, <a href="https://juhokim.com/">https://juhokim.com/</a>), N1 #605<br/>
+                Prof. Sung-Ju Lee (profsj@kaist.ac.kr, <a href="https://sites.google.com/site/wewantsj/">https://sites.google.com/site/wewantsj/</a>), N1 #706<br/>
+                Prof. Shin Yoo</a> (shin.yoo@kaist.ac.kr, <a href="http://coinse.kaist.ac.kr/members/shin.yoo">http://coinse.kaist.ac.kr/members/shin.yoo</a>), E3-1, #2405<br/>
+              <strong>TA: </strong>Joon-Gyum Kim<br/>
+              <strong>Office Hours</strong>: TBD or by appointment<br/>
+              <strong>Class email</strong>: <a href="mailto:i2r@nmsl.kaist.ac.kr">i2r@nmsl.kaist.ac.kr</a>
+            </div>
+          </div>         
+        </div>	     
+      </div>         
+		<div class="col-md-6">
+	     <div class="bs-component">
+	        <div class="panel panel-primary">
+	          <div class="panel-heading">
+	            <h3 class="panel-title">Time &amp; Location</h3>
+	          </div>
+	          <div class="panel-body">
+	            <strong>When</strong>: Tue/Thu 10:30-11:45 <br/>
+	            <strong>Where</strong>: N1, #113<br/>
+			<strong>Class Website</strong>: <a href="http://intro2research.org">http://intro2research.org</a><br/>
+	          </div>
+	        </div>         
+	      </div>        
+      </div> 
+    </div>
+  </div>
+    
+    <!--
+    <div class="col-md-4">
+        <div class="bs-component">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Sharing Experience</h3>
+              </div>
+              <div class="panel-body">
+                <li> <strong>Sharing student experience from conference</strong>: <br/>
+                  TBD
+                  <ul>
+                  <li><a href="http://kixlab.org/courses/i2r/resource/sharing_experience/SIGA18_Hyunjin.pdf">구현진 (SIGGRAPH)</a></li>
+                  <li><a href="http://kixlab.org/courses/i2r/resource/sharing_experience/APLAS2018_Jihee.pdf">박지희 (APLAS)</a></li>
+                  <li><a href="http://kixlab.org/courses/i2r/resource/sharing_experience/NeurIPS2018_Sihyun.pdf">유시현 (NIPS)</a></li>
+                  <li><a href="http://kixlab.org/courses/i2r/resource/sharing_experience/APLAS2018_Jaemin.pdf">홍재민 (APLAS)</a></li>
+                  </ul>
+                </li>
+              </div>
+            </div>         
+          </div>        
+        </div>
+    </div>    
+-->
+	<!--	<div class="col-md-4">
+	        <div class="bs-component">
+	          <div class="panel panel-primary">
+	            <div class="panel-heading">
+	              <h3 class="panel-title">Links</h3>
+	            </div>
+	            <div class="panel-body">
+	              <strong>Course Website</strong>: <a href="http://kixlab.org/courses/i2r/">http://kixlab.org/courses/i2r/</a><br/>
+					<a href="http://bit.ly/student_panel_9_11">Student panel #1(9/11) survey</a><br/>
+	            </div>
+	          </div>         
+	        </div>        
+        </div>-->
+    
+<!--  </div>-->
+
+	<div class="row">
+		<div class="col-md-12">
+	        <div class="bs-component">
+	          <div class="panel panel-info">
+	            <div class="panel-heading">
+	              <h3 class="panel-title">Updates</h3>
+	            </div>
+	            <div class="panel-body">
+                <ul>
+                  <li>2/18: Welcome to the intro to research class! </li>
+                  <li>3/1: Create link tab, useful links from the class slides </li>
+                </ul>
+                <!--
+                <ul>
+	              <li>2/18: Welcome to the intro to research class! 
+	              </li>
+                <li><a href="http://bit.ly/student_panel_9_11">Student panel #1(9/11) survey</a></li>
+                <li>Please participate in the survey (as soon as possible): <a href="http://bit.ly/cs492c_survey">survey form</a><br/>
+                </li>
+                <li> Presentation order (left to right): 
+                  <ul>
+                    <li>10/30: 구현진, 류혜원, 윤소영, 장우진, 정현규, 최윤서, 박민성, 유시현, 김영훈, 이정관, Maria, Clement, 박지희, 홍재민</li>
+                    <li>11/1: 이한길, 박예슬, 오진영, 이승주, 남해진, 조석철, 김유진, 박찬수, 이녕우, 이준석, 이채린, 이동민, 허미나, 현상원</li>
+                  <li>Please put the link to your google slide in the google spreadsheet below </li>
+                  <ul>
+                  <li><a href="https://bit.ly/5_min_talk">5 minute talk</a></li></ul>
+                  </ul>
+                </li>
+                <li>Papers selected by the students are uploaded on "Selected Papers" page.</li>  
+                <li> Presentation order (11/20):
+                  <ul> 
+                    <li> 현상원, 허미나, 이동민, 이채린, 이준석, 이녕우, 박찬수, 김유진, 조석철, 남해진, 이승주, 오진영, 박예슬, 이한길, 홍재민, 박지희, Clement, Maria, 이정관, 김영훈, 유시현, 박민성, 최윤서, 정현규, 장우진, 윤소영, 류혜원, 구현진 </li>
+                    <li> Please put the link to your google slide (This is an option) </li>
+                    <ul>
+                    <li><a href="https://bit.ly/1_min_talk">1 minute talk</a></li></ul>
+                  </ul>
+                </li>
+	              </ul>
+              -->
+	            </div>
+	          </div>         
+	        </div>        
+        </div>
+    </div>
+
+
+  <div class="row">
+    <div class="col-md-12">
+          <div class="bs-component">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Schedule</h3>
+              </div>
+              <div class="panel-body">
+                <table class="table table-striped">
+                  <tr>
+                    <th>Week</th>
+                    <th>Date</th>
+                    <th>Led by</th>
+                    <th class="topic">Topic</th>
+                    <!--<th class="reading">Activity</th>-->
+                    <th>Due</th>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>2/26</td>
+                    <td>Lee</td>
+                    <td>
+                    <a href="https://nmsl.kaist.ac.kr/courses/i2r/resources/i2r_spring2019_lecture1_intro_20190226.pdf">Intro: What is research? </a>
+                    </td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>2/28</td>
+                    <td>Lee</td>
+                    <td><a href="https://nmsl.kaist.ac.kr/courses/i2r/resources/i2r_spring2019_lecture2_AreaAdvisorSelection_20190228.pdf">How to choose area and advisor </a>
+                    </td>
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>3/5</td>
+                    <td>Yoo</td>
+                    <td><a href="https://nmsl.kaist.ac.kr/courses/i2r/resources/i2r_spring2019_lecture3_20190305.pdf"> How to find papers for your research </a>
+                    </td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>3/7</td>
+                    <td>Lee</td>
+                    <td><a href="https://nmsl.kaist.ac.kr/courses/i2r/resources/i2r_spring2019_lecture4_GoodResearch_20190307.pdf"> How to recognize good research and generate good ideas </a></td>
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td>Assignment #1 (10am)</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>3/12</td>
+                    <td>Lee</td>
+                    <td>[Panel] How I selected my research area and advisor</td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>3/14</td>
+                    <td>Yoo</td>
+                    <td>How to read papers: which is where?
+                    </td>
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>3/19</td>
+                    <td>Kim</td>
+                    <td>How to write a good paper
+                    </td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td>Assignment #2 (10am)</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>3/21</td>
+                    <td>Yoo</td>
+                    <td>What happens to my paper: publication pipeline
+                    </td>
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td></td>
+                  </tr>                                                          
+                  <tr>
+                    <td>5</td>
+                    <td>3/26</td>
+                    <td>Yoo</td>
+                    <td>How to review papers
+                    </td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td>Assignment #3 (10am)</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>3/28</td>
+                    <td>All</td>
+                    <td>Abstract workshop</td>
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>4/2</td>
+                    <td>Lee</td>
+                    <td>How to make good presentations
+                    </td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>4/4</td>
+                    <td>Kim</td>
+                    <td>Designing human studies</td>
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>4/9</td>
+                    <td>All</td>
+                    <td>Presentation workshop #1</td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>4/11</td>
+                    <td>All</td>
+                    <td>Presentation workshop #2</td>
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>4/16</td>
+                    <td>-</td>
+                    <td class="no-class">No class (Midterms week)</td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>4/18</td>
+                    <td>-</td>
+                    <td class="no-class">No class (Midterms week)</td>
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td></td>
+                  </tr>              
+                  <tr>
+                    <td>9</td>
+                    <td>4/23</td>
+                    <td>Lee</td>
+                    <td>How to write proposals</td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td>Assignment #4 (10am)</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>4/25</td>
+                    <td>All</td>
+                    <td>Review workshop</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>4/30</td>
+                    <td>Kim</td>
+                    <td>Research ethics
+                    </td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>5/2</td>
+                    <td>Kim</td>
+                    <td>How to market yourself and your research
+                    </td>
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>5/7</td>
+                    <td>Yoo</td>
+                    <td>[Panel] What to do when attending a conference for the first time</td>
+                    <td>Project (10am)</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>5/9</td>
+                    <td>Yoo</td>
+                    <td>Statistical analysis</td>
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>5/14</td>
+                    <td>All</td>
+                    <td>Resume workshop #1</td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td>Assignment #5 (10am)</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>5/16</td>
+                    <td>All</td>
+                    <td>Resume workshop #2</td>
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td>Assignment #6 <strong>(due: 5/20, 10am)</strong></td>
+                  </tr>                                                          
+                  <tr>
+                    <td>13</td>
+                    <td>5/21</td>
+                    <td>All</td>
+                    <td>Mock proposal review</td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>5/23</td>
+                    <td>All</td>
+                    <td>Mock proposal review</td>
+                    
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>5/28</td>
+                    <td>Kim</td>
+                    <td>Life as a researcher
+                    </td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>5/30</td>
+                    <td>Kim</td>
+                    <td>[Panel] How to survive grad school</td>
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>6/4</td>
+                    <td>Yoo</td>
+                    <td>Job market/career paths</td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td>Assignment #7 (10am)</td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>6/6</td>
+                    <td>-</td>
+                    <td class="no-class">No class (Memorial Day)</td>
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>6/11</td>
+                    <td>-</td>
+                    <td class="no-class">No class (Finals week)</td>
+                    <!--<td class="reading">
+                      
+                    </td>-->
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>6/13</td>
+                    <td>-</td>
+                    <td class="no-class">No class (Finals week)</td>
+                    <!--<td class="reading">
+
+                    </td>-->
+                    <td></td>
+                  </tr>                                                                                                                                                                                                                                            
+                </table>
+                <p><strong>Previous course website</strong>: <a href="https://www.kixlab.org/courses/i2r/index.html">CS492C Fall 2018</a><br/>
+              </div>
+
+            </div>         
+          </div>        
+        </div>
+    </div>                  
+
+
+<!-- 	<div class="row">
+    <div class="col-md-4">
+          <div class="bs-component">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Topics (tentative)</h3>
+              </div>
+              <div class="panel-body">
+                Major topics include:
+                <ul>
+                 <li>Crowdsourcing and human computation</li>
+                 <li>Social computing platforms</li>
+                 <li>Social networks and online communities</li>
+                 <li>Computer supported collaborative work</li>
+                 <li>Privacy and ethics</li>
+                 <li>Incentives and gamification</li>
+                 <li>Online experimentation and analysis</li>
+                 <li>Programming paradigms</li>
+                 <li>Quality control and fighting malicious behaviors</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+		<div class="col-md-4">
+	        <div class="bs-component">
+	          <div class="panel panel-primary">
+	            <div class="panel-heading">
+	              <h3 class="panel-title">Grading</h3>
+	            </div>
+	            <div class="panel-body">
+	            There will be no midterm or final exams. Your grade will be based on how you excel at a series of assignments and projects, in addition to your class participation.
+	            </div>
+	          </div>         
+	        </div>	        
+        </div>
+		<div class="col-md-4">
+	        <div class="bs-component">
+	          <div class="panel panel-primary">
+	            <div class="panel-heading">
+	              <h3 class="panel-title">Prerequisites</h3>
+	            </div>
+	            <div class="panel-body">
+	            There are no official course prerequisites. But assignments and the final project will require building features of a crowdsourcing / social computing system, so programming skills are needed. Knowledge or research experience in HCI (CS374 or equivalent) or social computing is useful, but not required. 
+	            </div>
+	          </div>         
+	        </div>	        
+        </div>   
+    </div> -->
+
+</div>
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="dist/js/ripples.min.js"></script>
+<script src="dist/js/material.min.js"></script>
+<script>
+  $(function () {
+    $.material.init();
+  });
+</script>
+
+</body>
+</html>
